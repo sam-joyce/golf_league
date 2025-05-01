@@ -31,7 +31,7 @@
 
 ### Design Inspiration
 
-- [!Login](https://dribbble.com/shots/10547150-Login-Flow-Kaya-Wallet-Apps)
-- [!League-Leaderboard](https://dribbble.com/shots/16697274-Smartdeck-Leaderboard)
-- [!Create-League](https://dribbble.com/shots/8758670-Pill-Reminder-Medication-Tracking-App)
-- [!Profile](https://dribbble.com/shots/21177181-FitFe-Profile-Workout-Plan)
+- [Login](https://dribbble.com/shots/10547150-Login-Flow-Kaya-Wallet-Apps)
+- [Leaderboard](https://dribbble.com/shots/16697274-Smartdeck-Leaderboard)
+- [Create](https://dribbble.com/shots/8758670-Pill-Reminder-Medication-Tracking-App)
+- [Profile](https://dribbble.com/shots/21177181-FitFe-Profile-Workout-Plan)
