@@ -9,43 +9,9 @@ const mysqlPool = mysql.createPool({
 });
 
 
-// const mysqlPool = mysql.createPool({
-//   host: process.env.DB_HOST,
-//   user: process.env.DB_USER,
-//   password: process.env.DB_PASSWORD,
-//   database: process.env.DB_NAME
-// });
-
-mysqlPool.query("SELECT * FROM User;")
-  .then(data => console.log(data))
-  .catch(err => console.log('db connection failed. \n ' + err))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const pool = mysql.createPool({
-//   host: process.env.DB_HOST,
-//   user: process.env.DB_USER,
-//   password: process.env.DB_PASSWORD,
-//   database: process.env.DB_NAME
-// });
-
+export default mysqlPool;
 // let sql = "SELECT * FROM User;";
 // pool.execute(sql, (err, result) => {
 //   if (err) throw err;

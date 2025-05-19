@@ -4,13 +4,24 @@
 ![ERD](./golf_league_relationships.png)
 
 
-### Potential Tech 
+### Tech Stack 
 - Frontend: React Native (deployed to relavant stores)
 - Backend API: Node.js with Express.js (intial deployment to Railway for testing, eventually Amazon EC2 for more control)
-  - RESTful
+  - **My Routes** only map endpoints to controller functions
+  - **My Controllers** handle req/res and talk to services
+  - **My Services** hold business logic (validation, transformations)
+  - **My Repositories** talk to the database
+  
+  - Core API Resources will need the following RESTful Endpoints
+    - Users
+    - Leagues
+    - Memberships
+    - Courses / Holes
+    - Rounds / Scores
+    - Cards (fines/rewards)
   - JWT-based Authentication
-  - ORM: Prisma
-- Datbase: MySQL (deployed to Amazon RDS)
+  
+- Database: MySQL (deployed to Amazon RDS)
 
 - Authentication & Authorization
   - JWT + Refresh Tokens
